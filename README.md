@@ -1,3 +1,6 @@
+hey there! we have seen you fork turtlecoin a few times over the last few days -- seems like you might be having a problem of some sort. drop by https//chat.turtlecoin.lol and hit us up in #dev_general if you need help 
+
+
 ![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
 
 #### Master Build Status
