@@ -37,7 +37,7 @@ const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION       = 3;
 
 const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 1;
 const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2              = 2;
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3              = 3;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3              = 2200000;
 
 const uint64_t DIFFICULTY_WINDOW_V3                          = 60;
 const uint64_t DIFFICULTY_BLOCKS_COUNT_V3                    = DIFFICULTY_WINDOW_V3 + 1;
