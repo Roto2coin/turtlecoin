@@ -537,7 +537,9 @@ Difficulty Currency::nextDifficultyV5(std::vector<std::uint64_t> timestamps, std
     int64_t T = CryptoNote::parameters::DIFFICULTY_TARGET;
     int64_t N = CryptoNote::parameters::DIFFICULTY_WINDOW_V3;
     int64_t L(0), ST, sum_3_ST(0), next_D, prev_D;
-
+  
+    #include <iostream>
+    std::cout << "Size of timestamps: " << timestamps.size() << std::endl;
     if (timestamps.size() <= static_cast<uint64_t>(N+1))
     {
         return 1000;
