@@ -10,10 +10,10 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string addressPrefix = "TRTL";
+    const std::string addressPrefix = "Rto2";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "TRTL";
+    const std::string ticker = "ROTO2";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -23,20 +23,20 @@ namespace WalletConfig
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "TurtleCoind";
+    const std::string daemonName = "Roto2Coind";
 
     /* The name to call this wallet */
-    const std::string walletName = "zedwallet";
+    const std::string walletName = "roto2coin-wallet";
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
-    const std::string walletdName = "turtle-service";
+    const std::string walletdName = "roto2-service";
 
     /* The full name of your crypto */
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);
 
     /* Where can your users contact you for support? E.g. discord */
-    const std::string contactLink = "http://chat.turtlecoin.lol";
+    const std::string contactLink = "https://www.forocoches.com/foro/showthread.php?t=6670403";
 
 
     /* The number of decimals your coin has */
@@ -45,7 +45,7 @@ namespace WalletConfig
 
 
     /* The length of a standard address for your coin */
-    const long unsigned int standardAddressLength = 99;
+    const long unsigned int standardAddressLength = 98;
 
     /* The length of an integrated address for your coin - It's the same as
        a normal address, but there is a paymentID included in there - since
@@ -56,7 +56,7 @@ namespace WalletConfig
                                                     + ((64 * 11) / 8);
 
     /* The mixin value to use with transactions */
-    const uint64_t defaultMixin = CryptoNote::parameters::DEFAULT_MIXIN;
+    const uint64_t defaultMixin = 7;
 
     /* The default fee value to use with transactions (in ATOMIC units!) */
     const uint64_t defaultFee = CryptoNote::parameters::MINIMUM_FEE; 
