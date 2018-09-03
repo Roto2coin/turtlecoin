@@ -39,7 +39,7 @@
 #include <errno.h>
 #endif
 
-#define SERVICE_NAME "Turtle-Service"
+#define SERVICE_NAME "Roto2-Service"
 
 PaymentGateService* ppg;
 
@@ -296,7 +296,7 @@ int unregisterService() {
 }
 
 int main(int argc, char** argv) {
-  PaymentGateService pg; 
+  PaymentGateService pg;
   ppg = &pg;
 
   try {
@@ -304,7 +304,7 @@ int main(int argc, char** argv) {
       return 0; //help message requested or so
     }
 
-    Logging::LoggerRef(pg.getLogger(), "main")(Logging::INFO) << "turtle-service v" << PROJECT_VERSION_LONG;
+    Logging::LoggerRef(pg.getLogger(), "main")(Logging::INFO) << "roto2-service v" << PROJECT_VERSION_LONG;
 
     const auto& config = pg.getConfig();
 
