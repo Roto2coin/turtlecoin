@@ -45,8 +45,8 @@ The following images are known to work.
 
 ##### Building
 
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/roto2coin/roto2coin-proyecto`
+- `cd roto2coin-proyecto`
 - `mkdir build && cd $_`
 - `cmake ..`
 - `make`
@@ -61,8 +61,8 @@ The following images are known to work.
 
 ##### Building
 
-- `git clone -b master https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master https://github.com/roto2coin/roto2coin-proyecto`
+- `cd roto2coin-proyecto`
 - `mkdir build && cd $_`
 - `cmake ..` or `cmake -DBOOST_ROOT=<path_to_boost_install> ..` when building
   from a specific boost install. If you used brew to install boost, your path is most likely `/usr/local/include/boost.`
@@ -70,7 +70,7 @@ The following images are known to work.
 
 The binaries will be in `./src` after compilation is complete.
 
-Run `./src/TurtleCoind` to connect to the network and let it sync (it may take a while).
+Run `./src/Roto2Coind` to connect to the network and let it sync (it may take a while).
 
 #### Windows 10
 
@@ -82,7 +82,7 @@ Run `./src/TurtleCoind` to connect to the network and let it sync (it may take a
 ##### Building
 
 - From the start menu, open 'x64 Native Tools Command Prompt for vs2017'.
-- `cd <your_turtlecoin_directory>`
+- `cd <your_roto2coin_directory>`
 - `mkdir build`
 - `cd build`
 - Set the PATH variable for cmake: ie. `set PATH="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin";%PATH%`
@@ -93,10 +93,6 @@ Run `./src/TurtleCoind` to connect to the network and let it sync (it may take a
 
 #### Thanks
 Cryptonote Developers, Bytecoin Developers, Monero Developers, Forknote Project, TurtleCoin Community
-
-### Copypasta for license when editing files
-
-Hi TurtleCoin contributor, thanks for forking and sending back Pull Requests. Extensive docs about contributing are in the works or elsewhere. For now this is the bit we need to get into all the files we touch. Please add it to the top of the files, see [src/CryptoNoteConfig.h](https://github.com/turtlecoin/turtlecoin/commit/28cfef2575f2d767f6e512f2a4017adbf44e610e) for an example.
 
 ```
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
