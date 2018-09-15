@@ -10,10 +10,6 @@
 
 #### Ubuntu LTS and MacOS 10.10+
 
-There is a bash installation script for Ubuntu 16.04+ and MacOS 10.10+ which can be used to checkout and build the project from source:
-
-`$ curl -sL "https://raw.githubusercontent.com/turtlecoin/turtlecoin/master/scripts/multi_installer.sh" | bash `
-
 On Ubuntu you will be asked for sudo rights to install software. The binaries will be in `./src` after compilation is complete.
 
 This script can be used from inside the git repository to build the project from the checked out source, `./multi_installer.sh`
@@ -33,8 +29,8 @@ The following images are known to work.
 
 ##### Building
 
-- `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone -b master --single-branch https://github.com/roto2coin/roto2coin-proyecto`
+- `cd roto2coin`
 - `mkdir build && cd $_`
 - `cmake ..`
 - `make`
