@@ -212,5 +212,6 @@ const static boost::uuids::uuid CRYPTONOTE_NETWORK =
 const char* const SEED_NODES[] = {
   "206.189.23.229:13000",//rock
   "167.99.91.202:13000", //cision
+  "194.99.23.120:13000", //mvps
 };
 } // CryptoNote
